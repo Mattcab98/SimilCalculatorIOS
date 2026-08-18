@@ -8,6 +8,27 @@ export const globalStyles = StyleSheet.create ({
     },
 
     calculatorContainer: {
+        flex: 1,
+        justifyContent: 'flex-end',
+    },
 
+    mainResult: {
+        color: Colors.textPrimary,
+        fontSize: 70,
+        textAlign: 'right',
+        fontWeight: 400
+    },
+
+    subResult: {
+        color: Colors.textSecondary,
+        fontSize: 40,
+        textAlign: 'right'
+    },
+
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        gap: 15,
+        marginBottom: 12,
     }
-})
+});
